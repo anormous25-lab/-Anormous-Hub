@@ -14,3 +14,15 @@ main{max-width:760px;margin:auto;padding:10px 16px 70px}.hero{text-align:center;
 footer{max-width:760px;margin:auto;padding:18px 16px 35px;color:#625b70;font-size:10px;display:flex;justify-content:space-between;gap:15px}
 @media(max-width:430px){.modes{grid-template-columns:1fr 1fr}.hero{padding-top:30px}.hero h1{font-size:52px}.input{min-height:155px}footer{display:block}footer span{display:block;margin-top:5px}}
 @media(max-width:350px){.modes{grid-template-columns:1fr}}
+
+.yt-section{margin-top:28px;padding-top:6px}
+.yt-card{background:linear-gradient(145deg,#181522,#100e17);border:1px solid var(--line);border-radius:24px;padding:14px;box-shadow:0 20px 70px #0008}
+.yt-title{display:flex;align-items:center;gap:10px;margin-bottom:6px}.yt-title b{font-size:18px}.yt-icon{display:grid;place-items:center;width:36px;height:36px;border-radius:12px;background:#22152a;border:1px solid #3a253f;font-size:18px}
+.yt-sub{color:var(--muted);font-size:12px;line-height:1.5;margin:0 0 13px}
+.yt-input{width:100%;background:#0c0a12;border:1px solid #262033;border-radius:15px;color:var(--text);padding:14px;outline:none;font-size:14px}.yt-input:focus{border-color:#5c3d93}
+.yt-actions{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-top:10px}.yt-btn{border:1px solid var(--line);background:#171421;color:var(--text);border-radius:14px;padding:12px;font-weight:800;cursor:pointer}.yt-btn.primary{border:0;background:linear-gradient(135deg,var(--accent),#7139db)}
+.yt-result{display:none;margin-top:12px;border:1px solid var(--line);border-radius:18px;padding:12px;background:#0e0c14}.yt-result.show{display:block}
+.yt-preview{width:100%;border-radius:13px;display:block;aspect-ratio:16/9;object-fit:cover;background:#09070f}.yt-meta{margin-top:10px}.yt-meta b{font-size:13px}.yt-meta p{color:var(--muted);font-size:12px;margin:5px 0 0}
+.yt-tools{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:10px}.yt-tool{border:1px solid var(--line);background:#15121d;color:var(--text);border-radius:12px;padding:10px;font-size:11px;text-decoration:none;text-align:center;cursor:pointer}
+.yt-note{color:#716a7d;font-size:10px;line-height:1.45;margin:11px 2px 0}
+@media(max-width:350px){.yt-actions,.yt-tools{grid-template-columns:1fr}}
